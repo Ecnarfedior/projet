@@ -4,7 +4,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 
 # Chargement des données depuis le fichier CSV
-link = 'C:\Users\stanl\Desktop\test_streamlit\Base_prete'
+link = 'C:\Users\stanl\Desktop\test_streamlit\Base_prete.csv'
 df1 = pd.read_csv(link)
 
 # Sélection des colonnes incluant des nombres
